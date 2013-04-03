@@ -311,6 +311,40 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <rectangle x1="-3.42" y1="3.8" x2="-2.93" y2="5.32" layer="51"/>
 <rectangle x1="-4.69" y1="3.8" x2="-4.2" y2="5.32" layer="51"/>
 </package>
+<package name="TMV0505D">
+<pad name="2" x="0" y="5.08" drill="0.6" diameter="1.4224" shape="long"/>
+<pad name="1" x="0" y="7.62" drill="0.6" diameter="1.4224" shape="long"/>
+<pad name="5" x="0" y="-2.54" drill="0.6" diameter="1.4224" shape="long"/>
+<pad name="6" x="0" y="-5.08" drill="0.6" diameter="1.4224" shape="long"/>
+<pad name="7" x="0" y="-7.62" drill="0.6" diameter="1.4224" shape="long"/>
+<wire x1="1.27" y1="10.16" x2="1.27" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-10.16" x2="-5.08" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="10.16" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="10.16" x2="1.27" y2="10.16" width="0.127" layer="21"/>
+<text x="1.27" y="11.43" size="1.27" layer="25" rot="R180">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="REF3125AIDBZT">
+<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
+reflow soldering</description>
+<wire x1="-1.973" y1="1.983" x2="1.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-1.983" x2="-1.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-1.983" x2="-1.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="1.983" x2="1.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="1.422" y1="0.66" x2="1.422" y2="-0.66" width="0.1524" layer="51"/>
+<wire x1="1.422" y1="-0.66" x2="-1.422" y2="-0.66" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="-0.66" x2="-1.422" y2="0.66" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="0.66" x2="1.422" y2="0.66" width="0.1524" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+<rectangle x1="-0.5001" y1="-0.3" x2="0.5001" y2="0.3" layer="35"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AD8221">
@@ -526,6 +560,30 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <text x="-12.7" y="-43.18" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-45.72" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="TMV0505D">
+<wire x1="-20.32" y1="10.16" x2="20.32" y2="10.16" width="0.254" layer="94"/>
+<wire x1="20.32" y1="10.16" x2="20.32" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-10.16" x2="-20.32" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-10.16" x2="-20.32" y2="10.16" width="0.254" layer="94"/>
+<pin name="+VOUT" x="-25.4" y="5.08" length="middle"/>
+<pin name="-VOUT" x="-25.4" y="-5.08" length="middle"/>
+<pin name="COM" x="-25.4" y="0" length="middle"/>
+<pin name="+VIN" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="-VIN" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<text x="-2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="REF3125">
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="VIN" x="-15.24" y="0" length="middle"/>
+<pin name="VOUT" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="GND" x="0" y="-12.7" length="middle" rot="R90"/>
+<text x="-7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AD8221ARZ" prefix="IC">
@@ -686,6 +744,42 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <connect gate="G$1" pin="VOB" pad="13"/>
 <connect gate="G$1" pin="VOC" pad="5"/>
 <connect gate="G$1" pin="VOD" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TMV0505D" prefix="G">
+<gates>
+<gate name="G$1" symbol="TMV0505D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TMV0505D">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="1"/>
+<connect gate="G$1" pin="+VOUT" pad="7"/>
+<connect gate="G$1" pin="-VIN" pad="2"/>
+<connect gate="G$1" pin="-VOUT" pad="5"/>
+<connect gate="G$1" pin="COM" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REF3125AIDBZT" prefix="IC">
+<gates>
+<gate name="G$1" symbol="REF3125" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="REF3125AIDBZT">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
