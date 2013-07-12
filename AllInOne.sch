@@ -14283,7 +14283,7 @@ low-leakage double diode</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="nanoeeg">
+<library name="femtoexg">
 <packages>
 <package name="SO-08">
 <description>&lt;B&gt;Small Outline Narrow Plastic Gull Wing&lt;/B&gt;&lt;p&gt;
@@ -16151,7 +16151,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="10pF"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
-<part name="IC1" library="nanoeeg" deviceset="AD8221ARZ" device=""/>
+<part name="IC1" library="femtoexg" deviceset="AD8221ARZ" device=""/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="2K"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
@@ -16190,9 +16190,9 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="100"/>
 <part name="COM" library="pinhead" deviceset="PINHD-1X2" device="" value="COM"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="IC2" library="nanoeeg" deviceset="TLC2254ID" device=""/>
-<part name="IC3" library="nanoeeg" deviceset="ADS1256IDBT" device=""/>
-<part name="IC4" library="nanoeeg" deviceset="AD8605ARTZ" device=""/>
+<part name="IC2" library="femtoexg" deviceset="TLC2254ID" device=""/>
+<part name="IC3" library="femtoexg" deviceset="ADS1256IDBT" device=""/>
+<part name="IC4" library="femtoexg" deviceset="AD8605ARTZ" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="R22" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
@@ -16203,7 +16203,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="R25" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="IC6" library="nanoeeg" deviceset="ADUM1402ARWZ" device=""/>
+<part name="IC6" library="femtoexg" deviceset="ADUM1402ARWZ" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
@@ -16221,10 +16221,10 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="100"/>
 <part name="C19" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="G1" library="nanoeeg" deviceset="TMV0505D" device=""/>
+<part name="G1" library="femtoexg" deviceset="TMV0505D" device=""/>
 <part name="IC5" library="linear" deviceset="MCP1703*" device="MB" technology="33"/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="IC7" library="nanoeeg" deviceset="REF3125AIDBZT" device=""/>
+<part name="IC7" library="femtoexg" deviceset="REF3125AIDBZT" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="C20" library="rcl" deviceset="CPOL-EU" device="E2-4" value="47u"/>
 <part name="C21" library="rcl" deviceset="CPOL-EU" device="E2-4" value="47u"/>
@@ -16254,7 +16254,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="C30" library="rcl" deviceset="C-EU" device="C0805" value="10pF"/>
 <part name="C31" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
 <part name="C32" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
-<part name="IC8" library="nanoeeg" deviceset="AD8221ARZ" device=""/>
+<part name="IC8" library="femtoexg" deviceset="AD8221ARZ" device=""/>
 <part name="R31" library="rcl" deviceset="R-EU_" device="R0805" value="2K"/>
 <part name="C33" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
 <part name="C34" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
@@ -16277,8 +16277,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="R36" library="rcl" deviceset="R-EU_" device="R0805" value="680K"/>
 <part name="R37" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
-<part name="IC9" library="nanoeeg" deviceset="TLC2254ID" device=""/>
-<part name="IC10" library="nanoeeg" deviceset="AD8605ARTZ" device=""/>
+<part name="IC9" library="femtoexg" deviceset="TLC2254ID" device=""/>
+<part name="IC10" library="femtoexg" deviceset="AD8605ARTZ" device=""/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="R38" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="R39" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
@@ -16314,7 +16314,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="C45" library="rcl" deviceset="C-EU" device="C0805" value="10pF"/>
 <part name="C46" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
 <part name="C47" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
-<part name="IC11" library="nanoeeg" deviceset="AD8221ARZ" device=""/>
+<part name="IC11" library="femtoexg" deviceset="AD8221ARZ" device=""/>
 <part name="R51" library="rcl" deviceset="R-EU_" device="R0805" value="2K"/>
 <part name="C48" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
 <part name="C49" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
@@ -16337,8 +16337,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="R56" library="rcl" deviceset="R-EU_" device="R0805" value="680K"/>
 <part name="R57" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
-<part name="IC12" library="nanoeeg" deviceset="TLC2254ID" device=""/>
-<part name="IC13" library="nanoeeg" deviceset="AD8605ARTZ" device=""/>
+<part name="IC12" library="femtoexg" deviceset="TLC2254ID" device=""/>
+<part name="IC13" library="femtoexg" deviceset="AD8605ARTZ" device=""/>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
 <part name="R58" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="R59" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
@@ -16372,7 +16372,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="C61" library="rcl" deviceset="C-EU" device="C0805" value="10pF"/>
 <part name="C62" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
 <part name="C63" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
-<part name="IC14" library="nanoeeg" deviceset="AD8221ARZ" device=""/>
+<part name="IC14" library="femtoexg" deviceset="AD8221ARZ" device=""/>
 <part name="R71" library="rcl" deviceset="R-EU_" device="R0805" value="2K"/>
 <part name="C64" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
 <part name="C65" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
@@ -16395,8 +16395,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="R76" library="rcl" deviceset="R-EU_" device="R0805" value="680K"/>
 <part name="R77" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="GND73" library="supply1" deviceset="GND" device=""/>
-<part name="IC15" library="nanoeeg" deviceset="TLC2254ID" device=""/>
-<part name="IC16" library="nanoeeg" deviceset="AD8605ARTZ" device=""/>
+<part name="IC15" library="femtoexg" deviceset="TLC2254ID" device=""/>
+<part name="IC16" library="femtoexg" deviceset="AD8605ARTZ" device=""/>
 <part name="GND74" library="supply1" deviceset="GND" device=""/>
 <part name="R78" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="R79" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
@@ -16430,7 +16430,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="C75" library="rcl" deviceset="C-EU" device="C0805" value="10pF"/>
 <part name="C76" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
 <part name="C77" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
-<part name="IC17" library="nanoeeg" deviceset="AD8221ARZ" device=""/>
+<part name="IC17" library="femtoexg" deviceset="AD8221ARZ" device=""/>
 <part name="R91" library="rcl" deviceset="R-EU_" device="R0805" value="2K"/>
 <part name="C78" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
 <part name="C79" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
@@ -16453,8 +16453,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="R96" library="rcl" deviceset="R-EU_" device="R0805" value="680K"/>
 <part name="R97" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="GND89" library="supply1" deviceset="GND" device=""/>
-<part name="IC18" library="nanoeeg" deviceset="TLC2254ID" device=""/>
-<part name="IC19" library="nanoeeg" deviceset="AD8605ARTZ" device=""/>
+<part name="IC18" library="femtoexg" deviceset="TLC2254ID" device=""/>
+<part name="IC19" library="femtoexg" deviceset="AD8605ARTZ" device=""/>
 <part name="GND90" library="supply1" deviceset="GND" device=""/>
 <part name="R98" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="R99" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
@@ -16488,7 +16488,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="C89" library="rcl" deviceset="C-EU" device="C0805" value="10pF"/>
 <part name="C90" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
 <part name="C91" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
-<part name="IC20" library="nanoeeg" deviceset="AD8221ARZ" device=""/>
+<part name="IC20" library="femtoexg" deviceset="AD8221ARZ" device=""/>
 <part name="R111" library="rcl" deviceset="R-EU_" device="R0805" value="2K"/>
 <part name="C92" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
 <part name="C93" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
@@ -16511,8 +16511,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="R116" library="rcl" deviceset="R-EU_" device="R0805" value="680K"/>
 <part name="R117" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="GND105" library="supply1" deviceset="GND" device=""/>
-<part name="IC21" library="nanoeeg" deviceset="TLC2254ID" device=""/>
-<part name="IC22" library="nanoeeg" deviceset="AD8605ARTZ" device=""/>
+<part name="IC21" library="femtoexg" deviceset="TLC2254ID" device=""/>
+<part name="IC22" library="femtoexg" deviceset="AD8605ARTZ" device=""/>
 <part name="GND106" library="supply1" deviceset="GND" device=""/>
 <part name="R118" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="R119" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
@@ -16546,7 +16546,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="C103" library="rcl" deviceset="C-EU" device="C0805" value="10pF"/>
 <part name="C104" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
 <part name="C105" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
-<part name="IC23" library="nanoeeg" deviceset="AD8221ARZ" device=""/>
+<part name="IC23" library="femtoexg" deviceset="AD8221ARZ" device=""/>
 <part name="R131" library="rcl" deviceset="R-EU_" device="R0805" value="2K"/>
 <part name="C106" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
 <part name="C107" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
@@ -16569,8 +16569,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="R136" library="rcl" deviceset="R-EU_" device="R0805" value="680K"/>
 <part name="R137" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="GND121" library="supply1" deviceset="GND" device=""/>
-<part name="IC24" library="nanoeeg" deviceset="TLC2254ID" device=""/>
-<part name="IC25" library="nanoeeg" deviceset="AD8605ARTZ" device=""/>
+<part name="IC24" library="femtoexg" deviceset="TLC2254ID" device=""/>
+<part name="IC25" library="femtoexg" deviceset="AD8605ARTZ" device=""/>
 <part name="GND122" library="supply1" deviceset="GND" device=""/>
 <part name="R138" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="R139" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
@@ -16604,7 +16604,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="C117" library="rcl" deviceset="C-EU" device="C0805" value="10pF"/>
 <part name="C118" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
 <part name="C119" library="rcl" deviceset="C-EU" device="C0805" value="100pF"/>
-<part name="IC26" library="nanoeeg" deviceset="AD8221ARZ" device=""/>
+<part name="IC26" library="femtoexg" deviceset="AD8221ARZ" device=""/>
 <part name="R151" library="rcl" deviceset="R-EU_" device="R0805" value="2K"/>
 <part name="C120" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
 <part name="C121" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
@@ -16627,8 +16627,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="R156" library="rcl" deviceset="R-EU_" device="R0805" value="680K"/>
 <part name="R157" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="GND137" library="supply1" deviceset="GND" device=""/>
-<part name="IC27" library="nanoeeg" deviceset="TLC2254ID" device=""/>
-<part name="IC28" library="nanoeeg" deviceset="AD8605ARTZ" device=""/>
+<part name="IC27" library="femtoexg" deviceset="TLC2254ID" device=""/>
+<part name="IC28" library="femtoexg" deviceset="AD8605ARTZ" device=""/>
 <part name="GND138" library="supply1" deviceset="GND" device=""/>
 <part name="R158" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="R159" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>

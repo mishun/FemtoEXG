@@ -5995,7 +5995,7 @@ low-leakage double diode</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="nanoeeg">
+<library name="femtoexg">
 <packages>
 <package name="AD8221ARZ">
 <description>&lt;B&gt;Small Outline Narrow Plastic Gull Wing&lt;/B&gt;&lt;p&gt;
@@ -6337,14 +6337,14 @@ low-leakage double diode</description>
 <part name="D4" library="diode" deviceset="BAV199" device=""/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
-<part name="IC1" library="nanoeeg" deviceset="AD8221ARZ" device=""/>
+<part name="IC1" library="femtoexg" deviceset="AD8221ARZ" device=""/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="2k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="IC2" library="nanoeeg" deviceset="TLC2254ID" device=""/>
+<part name="IC2" library="femtoexg" deviceset="TLC2254ID" device=""/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>

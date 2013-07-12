@@ -1251,7 +1251,7 @@ Based on the following sources:
 </package>
 </packages>
 </library>
-<library name="nanoeeg">
+<library name="femtoexg">
 <packages>
 <package name="AD8221ARZ">
 <description>&lt;B&gt;Small Outline Narrow Plastic Gull Wing&lt;/B&gt;&lt;p&gt;
@@ -1589,11 +1589,11 @@ design rules under a new name.</description>
 <element name="D4" library="diode" package="SOT23" value="BAV199" x="12.7" y="8.89" rot="MR0"/>
 <element name="R5" library="rcl" package="R0805" value="2k2" x="17.78" y="17.78" rot="MR180"/>
 <element name="R6" library="rcl" package="R0805" value="2k2" x="17.78" y="5.08" rot="MR180"/>
-<element name="IC1" library="nanoeeg" package="AD8221ARZ" value="AD8221ARZ" x="22.86" y="11.43" rot="MR90"/>
+<element name="IC1" library="femtoexg" package="AD8221ARZ" value="AD8221ARZ" x="22.86" y="11.43" rot="MR90"/>
 <element name="R7" library="rcl" package="R0805" value="2k" x="17.78" y="11.43" rot="MR270"/>
 <element name="C4" library="rcl" package="C0805" value="0.1" x="73.66" y="24.13"/>
 <element name="C5" library="rcl" package="C0805" value="0.1" x="60.96" y="44.45"/>
-<element name="IC2" library="nanoeeg" package="TLC2254ID" value="TLC2254ID" x="33.02" y="25.4" rot="R90"/>
+<element name="IC2" library="femtoexg" package="TLC2254ID" value="TLC2254ID" x="33.02" y="25.4" rot="R90"/>
 <element name="R8" library="rcl" package="R0805" value="100k" x="24.13" y="33.02"/>
 <element name="R9" library="rcl" package="R0805" value="100k" x="30.48" y="39.37"/>
 <element name="C6" library="rcl" package="C0805" value="0.1" x="71.12" y="38.1"/>

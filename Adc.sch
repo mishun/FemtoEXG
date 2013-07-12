@@ -70,7 +70,7 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="nanoeeg">
+<library name="femtoexg">
 <packages>
 <package name="ADS1256IDBT">
 <description>&lt;b&gt;Shrink Small Outline Package&lt;/b&gt;&lt;p&gt;
@@ -15914,10 +15914,10 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="IC1" library="nanoeeg" deviceset="ADS1256IDBT" device=""/>
-<part name="IC2" library="nanoeeg" deviceset="ADUM1402ARWZ" device=""/>
-<part name="G1" library="nanoeeg" deviceset="TMV0505D" device=""/>
-<part name="IC3" library="nanoeeg" deviceset="AD8605ARTZ" device=""/>
+<part name="IC1" library="femtoexg" deviceset="ADS1256IDBT" device=""/>
+<part name="IC2" library="femtoexg" deviceset="ADUM1402ARWZ" device=""/>
+<part name="G1" library="femtoexg" deviceset="TMV0505D" device=""/>
+<part name="IC3" library="femtoexg" deviceset="AD8605ARTZ" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
@@ -15930,7 +15930,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="IC4" library="nanoeeg" deviceset="AD8605ARTZ" device=""/>
+<part name="IC4" library="femtoexg" deviceset="AD8605ARTZ" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
@@ -15943,7 +15943,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="IC5" library="nanoeeg" deviceset="AD8605ARTZ" device=""/>
+<part name="IC5" library="femtoexg" deviceset="AD8605ARTZ" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
@@ -15956,7 +15956,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="IC6" library="nanoeeg" deviceset="AD8605ARTZ" device=""/>
+<part name="IC6" library="femtoexg" deviceset="AD8605ARTZ" device=""/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
@@ -15969,7 +15969,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="JP4" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="IC7" library="nanoeeg" deviceset="AD8605ARTZ" device=""/>
+<part name="IC7" library="femtoexg" deviceset="AD8605ARTZ" device=""/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
@@ -15982,7 +15982,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="JP5" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="IC8" library="nanoeeg" deviceset="AD8605ARTZ" device=""/>
+<part name="IC8" library="femtoexg" deviceset="AD8605ARTZ" device=""/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
@@ -15995,7 +15995,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="JP6" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="IC9" library="nanoeeg" deviceset="AD8605ARTZ" device=""/>
+<part name="IC9" library="femtoexg" deviceset="AD8605ARTZ" device=""/>
 <part name="C19" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
@@ -16008,7 +16008,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="JP7" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
-<part name="IC10" library="nanoeeg" deviceset="AD8605ARTZ" device=""/>
+<part name="IC10" library="femtoexg" deviceset="AD8605ARTZ" device=""/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="C23" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
@@ -16028,7 +16028,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="C27" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="C28" library="rcl" deviceset="CPOL-EU" device="E2-4" value="47uF"/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
-<part name="IC11" library="nanoeeg" deviceset="REF3125AIDBZT" device=""/>
+<part name="IC11" library="femtoexg" deviceset="REF3125AIDBZT" device=""/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49U-V" value="8MHz"/>
 <part name="C29" library="rcl" deviceset="C-EU" device="C0805" value="18pF"/>
