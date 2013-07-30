@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="9" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6369,7 +6369,7 @@ low-leakage double diode</description>
 <part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="910k"/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X4" device="/90"/>
+<part name="JP1" library="pinhead" deviceset="PINHD-1X4" device="/90" value="OUT"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -6625,6 +6625,7 @@ low-leakage double diode</description>
 <wire x1="292.1" y1="-119.38" x2="292.1" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="-119.38" x2="284.48" y2="-121.92" width="0.1524" layer="91"/>
 <label x="284.48" y="-121.92" size="1.778" layer="95" rot="R270" xref="yes"/>
+<junction x="284.48" y="-119.38"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="4"/>
@@ -6673,6 +6674,7 @@ low-leakage double diode</description>
 <wire x1="284.48" y1="17.78" x2="284.48" y2="0" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="17.78" x2="284.48" y2="20.32" width="0.1524" layer="91"/>
 <label x="284.48" y="20.32" size="1.778" layer="95" rot="R90" xref="yes"/>
+<junction x="284.48" y="17.78"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
@@ -6901,6 +6903,12 @@ low-leakage double diode</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,162.56,-22.86,IC1,+VS,+5V,,,"/>
+<approved hash="104,1,162.56,12.7,IC1,-VS,-5V,,,"/>
+<approved hash="104,1,284.48,0,IC2,+VS,+5V,,,"/>
+<approved hash="104,1,284.48,-96.52,IC2,-VS,-5V,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
