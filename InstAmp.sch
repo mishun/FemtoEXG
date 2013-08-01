@@ -6340,8 +6340,8 @@ low-leakage double diode</description>
 <part name="IC1" library="femtoexg" deviceset="AD8221ARZ" device=""/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="2k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="femtoexg" deviceset="TLC2254ID" device=""/>
@@ -6349,8 +6349,8 @@ low-leakage double diode</description>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="0.1"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="47nF"/>
