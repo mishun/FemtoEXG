@@ -1482,10 +1482,10 @@ DIO-10647</description>
 <instance part="GND14" gate="1" x="231.14" y="-33.02"/>
 <instance part="JP1" gate="A" x="431.8" y="-10.16"/>
 <instance part="GND15" gate="1" x="408.94" y="-5.08" rot="R270"/>
-<instance part="IC2" gate="A" x="309.88" y="-5.08"/>
-<instance part="IC2" gate="B" x="241.3" y="-5.08"/>
-<instance part="IC2" gate="C" x="111.76" y="10.16" rot="R180"/>
-<instance part="IC2" gate="D" x="111.76" y="-50.8" rot="R180"/>
+<instance part="IC2" gate="A" x="241.3" y="-5.08"/>
+<instance part="IC2" gate="B" x="309.88" y="-5.08"/>
+<instance part="IC2" gate="C" x="111.76" y="-50.8" rot="R180"/>
+<instance part="IC2" gate="D" x="111.76" y="10.16" rot="R180"/>
 <instance part="IC2" gate="P" x="360.68" y="-5.08"/>
 <instance part="R1" gate="G$1" x="20.32" y="27.94"/>
 <instance part="R2" gate="G$1" x="20.32" y="-33.02"/>
@@ -1748,9 +1748,9 @@ DIO-10647</description>
 <wire x1="127" y1="-12.7" x2="127" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="127" y1="-53.34" x2="127" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="127" y="-12.7"/>
-<pinref part="IC2" gate="D" pin="+IN"/>
-<wire x1="119.38" y1="-53.34" x2="127" y2="-53.34" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="IC2" gate="C" pin="+IN"/>
+<wire x1="119.38" y1="-53.34" x2="127" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -1794,8 +1794,6 @@ DIO-10647</description>
 <segment>
 <wire x1="314.96" y1="-15.24" x2="320.04" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="-15.24" x2="320.04" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="OUT"/>
-<wire x1="320.04" y1="-5.08" x2="317.5" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="5.08" x2="320.04" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="320.04" y="-5.08"/>
 <wire x1="320.04" y1="5.08" x2="313.69" y2="5.08" width="0.1524" layer="91"/>
@@ -1803,6 +1801,8 @@ DIO-10647</description>
 <label x="330.2" y="-5.08" size="1.778" layer="95" xref="yes"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="IC2" gate="B" pin="OUT"/>
+<wire x1="317.5" y1="-5.08" x2="320.04" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -1822,10 +1822,10 @@ DIO-10647</description>
 <pinref part="IC1" gate="G$1" pin="-RG"/>
 <wire x1="127" y1="2.54" x2="127" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="127" y1="7.62" x2="134.62" y2="7.62" width="0.1524" layer="91"/>
-<junction x="127" y="7.62"/>
-<wire x1="119.38" y1="7.62" x2="127" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="C" pin="+IN"/>
 <pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="IC2" gate="D" pin="+IN"/>
+<wire x1="119.38" y1="7.62" x2="127" y2="7.62" width="0.1524" layer="91"/>
+<junction x="127" y="7.62"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -1834,16 +1834,16 @@ DIO-10647</description>
 <wire x1="101.6" y1="20.32" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="20.32" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="20.32" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="C" pin="-IN"/>
-<wire x1="121.92" y1="12.7" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="C" pin="OUT"/>
-<wire x1="104.14" y1="10.16" x2="101.6" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="10.16" x2="101.6" y2="20.32" width="0.1524" layer="91"/>
 <junction x="101.6" y="20.32"/>
 <wire x1="91.44" y1="17.78" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
 <junction x="91.44" y="20.32"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="IC2" gate="D" pin="-IN"/>
+<wire x1="119.38" y1="12.7" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="D" pin="OUT"/>
+<wire x1="104.14" y1="10.16" x2="101.6" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -1852,79 +1852,79 @@ DIO-10647</description>
 <wire x1="91.44" y1="-40.64" x2="101.6" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="-40.64" x2="121.92" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="-40.64" x2="121.92" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="D" pin="-IN"/>
-<wire x1="121.92" y1="-48.26" x2="119.38" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="D" pin="OUT"/>
-<wire x1="104.14" y1="-50.8" x2="101.6" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="-50.8" x2="101.6" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="101.6" y="-40.64"/>
 <wire x1="91.44" y1="-43.18" x2="91.44" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="91.44" y="-40.64"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="IC2" gate="C" pin="OUT"/>
+<wire x1="104.14" y1="-50.8" x2="101.6" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="C" pin="-IN"/>
+<wire x1="119.38" y1="-48.26" x2="121.92" y2="-48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <wire x1="246.38" y1="-15.24" x2="251.46" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="-15.24" x2="251.46" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="B" pin="OUT"/>
-<wire x1="251.46" y1="-5.08" x2="248.92" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="-5.08" x2="251.46" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="5.08" x2="251.46" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="5.08" x2="251.46" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="251.46" y="-5.08"/>
-<wire x1="251.46" y1="-2.54" x2="251.46" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="-2.54" x2="251.46" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="251.46" y="-2.54"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="IC2" gate="A" pin="OUT"/>
+<wire x1="248.92" y1="-5.08" x2="251.46" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="251.46" y="-5.08"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <wire x1="236.22" y1="-15.24" x2="231.14" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="-15.24" x2="231.14" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="B" pin="-IN"/>
-<wire x1="231.14" y1="-7.62" x2="233.68" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="-17.78" x2="231.14" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="231.14" y="-15.24"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="IC2" gate="A" pin="-IN"/>
+<wire x1="233.68" y1="-7.62" x2="231.14" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <wire x1="223.52" y1="-17.78" x2="223.52" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="B" pin="+IN"/>
-<wire x1="223.52" y1="-2.54" x2="233.68" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-2.54" x2="223.52" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="223.52" y="-2.54"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="IC2" gate="A" pin="+IN"/>
+<wire x1="233.68" y1="-2.54" x2="223.52" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="223.52" y="-2.54"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <wire x1="299.72" y1="-17.78" x2="299.72" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="-IN"/>
 <wire x1="299.72" y1="-15.24" x2="299.72" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="-7.62" x2="302.26" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="-15.24" x2="299.72" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="299.72" y="-15.24"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="IC2" gate="B" pin="-IN"/>
+<wire x1="302.26" y1="-7.62" x2="299.72" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <wire x1="292.1" y1="-19.05" x2="292.1" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="+IN"/>
-<wire x1="292.1" y1="-2.54" x2="302.26" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="-2.54" x2="292.1" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="292.1" y="-2.54"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="IC2" gate="B" pin="+IN"/>
+<wire x1="302.26" y1="-2.54" x2="292.1" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="292.1" y="-2.54"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -1969,12 +1969,6 @@ DIO-10647</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,162.56,-22.86,IC1,+VS,+5V,,,"/>
-<approved hash="104,1,162.56,12.7,IC1,-VS,-5V,,,"/>
-<approved hash="104,1,284.48,0,IC2,+VS,+5V,,,"/>
-<approved hash="104,1,284.48,-96.52,IC2,-VS,-5V,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>
